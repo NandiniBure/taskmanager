@@ -1,0 +1,46 @@
+# Node.js
+node_modules/          # Dependency directory
+npm-debug.log*         # Log files created during npm execution
+yarn-error.log*        # Log files created during yarn execution
+package-lock.json      # Lock file, only if you're using Yarn (use yarn.lock for yarn-based projects)
+.pnpm-debug.log*       # pnpm debug logs if using pnpm
+
+# Environment variables
+.env                  # Environment variable file (never commit sensitive keys)
+.env.local            # Local environment variable file
+.env.production       # Production environment file
+.env.development      # Development environment file
+
+# Build output
+/dist/                # Compiled code, e.g., for TypeScript builds
+/build/               # Build directory for React apps or other front-end code
+
+# Logs
+*.log                 # Any log files, like application logs
+.log.               # Log file backups
+
+# Operating system files
+.DS_Store             # macOS-specific file
+Thumbs.db             # Windows-specific file
+
+# IDE and Editor files
+.vscode/              # VS Code editor configuration
+.idea/                # JetBrains IDE configuration
+*.swp                 # Swap files created by Vim/Neovim
+
+# Dependency management tools
+.pnp/                 # For Yarn PnP
+.pnpm-store/          # For pnpm store
+
+# Coverage reports
+coverage/             # Code coverage reports
+
+# npm package lock (only commit if you're using npm)
+npm-debug.log         # npm debug logs
+
+# Docker
+.dockerignore         # If you're using Docker, ignore Docker-related files
+docker-compose.override.yml
+
+# Misc
+*.tgz                 # Tarball files
